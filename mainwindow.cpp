@@ -139,8 +139,8 @@ void MainWindow::checkCell(int row, int column) const {
   
   //QColor background(Qt::darkYellow);
   if (textLeft != textRight) {
-    itemLeft->setData(Qt::BackgroundRole, Qt::darkYellow);
-    itemRight->setData(Qt::BackgroundRole, Qt::darkYellow);
+    itemLeft->setData(Qt::BackgroundRole, QColor(Qt::darkYellow));
+    itemRight->setData(Qt::BackgroundRole, QColor(Qt::darkYellow));
 
     //itemLeft->setBackground(Qt::darkYellow);
     //itemRight->setBackground(Qt::darkYellow);
